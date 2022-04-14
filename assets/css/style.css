@@ -1,0 +1,17 @@
+header{
+    background-color: aqua;
+
+}
+#title {
+    color: red;
+}
+
+.text{
+    color: brown;
+}
+
+section {
+    padding: 15px;
+    border: solid 1px red;
+    margin: 50px;
+}
