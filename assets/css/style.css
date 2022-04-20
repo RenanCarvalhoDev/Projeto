@@ -1,17 +1,47 @@
-header{
-    background-color: aqua;
+@import url("https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap");
 
-}
-#title {
-    color: red;
-}
-
-.text{
-    color: brown;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-section {
-    padding: 15px;
-    border: solid 1px red;
-    margin: 50px;
+main {
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+ul#menu {
+  list-style: none;
+  font-family: "Ms Madi", cursive, Arial;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+ul#menu li {
+  padding: 0.5rem;
+  color: black;
+}
+
+nav {
+  background-color: rgb(36, 163, 78);
+}
+
+ul#menu li a {
+  color: black;
+  text-decoration: none;
+}
+
+ul#menu li:hover {
+  color: rgb(172, 35, 35);
+  transform: scale(1.2);
+}
+
+header img {
+  width: 100%;
+}
+
+header h1 {
+  text-align: center;
+  margin-top: 3rem;
 }
